@@ -6,7 +6,7 @@ As demonstrated in our paper, the scalability bottlenecks of exitsting file syst
 In order to address the scalability bottlenecks, we proposed SpanFS, which builds a file system with multiple independent micro-filesystem services called domains.
 Then, SpanFS distributes all files and directories among the domains and provides a global file system view on top of the domains.
 Each domian adopts traditional journaling mechanism to ensure its local consistency.
-We builds the logical connection (bidirectional index) among the domains beyond the underlying distributed journaling, then proposes a set of techniques to maintain global consistency based on the connection.
+We build the logical connection (bidirectional index) among the domains beyond the underlying distributed journaling, then propose a set of techniques to maintain global consistency based on the connection.
 SpanFS is implemented based on Ext4 in Linux 3.18.0.
 
 For more details, please refer to our paper:
