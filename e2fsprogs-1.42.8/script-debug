@@ -1,0 +1,8 @@
+dmesg -c
+echo -e "\n\n\n\n"
+make
+umount /mnt
+misc/mke2fs -t ext4 -a 0 /dev/ram0
+mount -t spanfs -o data=ordered,partition=1,start=0 /dev/ram /mnt
+echo -e "\n\n\n"
+dmesg
