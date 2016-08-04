@@ -8,6 +8,9 @@
  * This file may be redistributed under the terms of the GNU Public
  * License.
  * %End-Header%
+ * Implement SpanFS (eext4) disk tool based on mke2fs
+ * Copyright 2013-2015 (C) Junbin Kang <kangjb@act.buaa.edu.cn>, Benlong Zhang <zblgeqian@gmail.com>, Lian Du <dulian@act.buaa.edu.cn>
+ *
  */
 
 /* Usage: mke2fs [options] device

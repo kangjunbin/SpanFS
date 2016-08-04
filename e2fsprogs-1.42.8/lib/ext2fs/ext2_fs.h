@@ -11,6 +11,9 @@
  *  linux/include/linux/minix_fs.h
  *
  *  Copyright (C) 1991, 1992  Linus Torvalds
+ * Implement SpanFS (eext4) disk tool based on mke2fs
+ * Copyright 2013-2015 (C) Junbin Kang <kangjb@act.buaa.edu.cn>, Benlong Zhang <zblgeqian@gmail.com>, Lian Du <dulian@act.buaa.edu.cn>
+ *
  */
 
 #ifndef _LINUX_EXT2_FS_H
