@@ -15,8 +15,8 @@
  *  Big-endian to little-endian byte-swapping/bitmaps by
  *        David S. Miller (davem@caip.rutgers.edu), 1995
  * 
- * Implement SpanFS based on Ext4
- * Copyright (C) 2013-2015  Junbin Kang <kangjb@act.buaa.edu.cn>, Benlong Zhang <zblgeqian@gmail.com>, Lian Du <dulian@act.buaa.edu.cn>
+ * Implement SpanFS based on Ext4.
+ * Copyright (C) 2013-2016, Junbin Kang <kangjb@act.buaa.edu.cn>, Benlong Zhang <zblgeqian@gmail.com>, Lian Du <dulian@act.buaa.edu.cn>.
  * Beihang University
  */
 

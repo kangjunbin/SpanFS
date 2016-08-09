@@ -21,8 +21,8 @@
  * Major simplications and cleanup - we only need to do the metadata, because
  * we can depend on generic_block_fdatasync() to sync the data blocks.
  *
- * Implement SpanFS based on Ext4
- * Copyright (C) 2013-2015  Junbin Kang <kangjb@act.buaa.edu.cn>, Benlong Zhang <zblgeqian@gmail.com>, Lian Du <dulian@act.buaa.edu.cn>
+ * Implement SpanFS based on Ext4.
+ * Copyright (C) 2013-2016, Junbin Kang <kangjb@act.buaa.edu.cn>, Benlong Zhang <zblgeqian@gmail.com>, Lian Du <dulian@act.buaa.edu.cn>.
  * Beihang University
  */
 
