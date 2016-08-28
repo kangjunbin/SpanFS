@@ -11,8 +11,11 @@ SpanFS is implemented based on Ext4 in Linux 3.18.0.
 
 For more details, please refer to our paper:
 [SpanFS: A Scalable File System on Fast Storage Devices ](https://www.usenix.org/system/files/conference/atc15/atc15-paper-kang.pdf)<bf />
-
-
+#The guide to using SpanFS
+First, make the SpanFS on-disk structures by using our modified mke2fs 
+     e2fsprogs-1.42.8/misc/mke2fs -t ext4 -J size=64 -p N /dev/fioa
+Then, mount SpanFS
+     mount -t spanfsv2 -o data=ordered /dev/fioa /mnt
 
 
 
