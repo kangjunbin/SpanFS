@@ -1,9 +1,7 @@
 /*
  *  linux/fs/ext4/dir.c
  *
- * Implement SpanFS based on Ext4.
- * Copyright (C) 2013-2016  Junbin Kang <kangjb@act.buaa.edu.cn>, Benlong Zhang <zblgeqian@gmail.com>, Lian Du <dulian@act.buaa.edu.cn>.
- * Beihang University
+ * 
  *
  * Copyright (C) 1992, 1993, 1994, 1995
  * Remy Card (card@masi.ibp.fr)
@@ -23,7 +21,9 @@
  *
  * Hash Tree Directory indexing (c) 2001  Daniel Phillips
  *
- *
+ * Implement SpanFS based on Ext4.
+ * Copyright (C) 2013-2016  Junbin Kang <kangjb@act.buaa.edu.cn>, Benlong Zhang <zblgeqian@gmail.com>, Lian Du <dulian@act.buaa.edu.cn>.
+ * Beihang University
  */
 
 #include <linux/fs.h>

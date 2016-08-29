@@ -1,5 +1,9 @@
 /*
  *  linux/include/linux/ext2_fs.h
+ * 
+ * Implement SpanFS (eext4) disk tool based on mke2fs.
+ * Copyright (C) 2013-2016, Junbin Kang <kangjb@act.buaa.edu.cn>, Benlong Zhang <zblgeqian@gmail.com>, Lian Du <dulian@act.buaa.edu.cn>.
+ * Beihang University
  *
  * Copyright (C) 1992, 1993, 1994, 1995
  * Remy Card (card@masi.ibp.fr)
@@ -11,9 +15,7 @@
  *  linux/include/linux/minix_fs.h
  *
  *  Copyright (C) 1991, 1992  Linus Torvalds
- * Implement SpanFS (eext4) disk tool based on mke2fs.
- * Copyright (C) 2013-2016, Junbin Kang <kangjb@act.buaa.edu.cn>, Benlong Zhang <zblgeqian@gmail.com>, Lian Du <dulian@act.buaa.edu.cn>.
- * Beihang University
+ *
  */
 
 #ifndef _LINUX_EXT2_FS_H

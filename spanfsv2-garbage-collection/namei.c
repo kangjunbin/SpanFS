@@ -1,9 +1,6 @@
 /*
  *  linux/fs/ext4/namei.c
  *
- * Implement SpanFS based on Ext4.
- * Copyright (C) 2013-2016  Junbin Kang <kangjb@act.buaa.edu.cn>, Benlong Zhang <zblgeqian@gmail.com>, Lian Du <dulian@act.buaa.edu.cn>.
- * Beihang University
  *
  * 
  * Copyright (C) 1992, 1993, 1994, 1995
@@ -27,6 +24,11 @@
  *	Christopher Li, 2002
  *  Hash Tree Directory indexing cleanup
  *	Theodore Ts'o, 2002
+ *
+ *
+ * Implement SpanFS based on Ext4.
+ * Copyright (C) 2013-2016  Junbin Kang <kangjb@act.buaa.edu.cn>, Benlong Zhang <zblgeqian@gmail.com>, Lian Du <dulian@act.buaa.edu.cn>.
+ * Beihang University
  *
  */
 
