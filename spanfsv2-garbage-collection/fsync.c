@@ -1,6 +1,10 @@
 /*
  *  linux/fs/ext4/fsync.c
  *
+ * Implement SpanFS based on Ext4.
+ * Copyright (C) 2013-2016, Junbin Kang <kangjb@act.buaa.edu.cn>, Benlong Zhang <zblgeqian@gmail.com>, Lian Du <dulian@act.buaa.edu.cn>.
+ * Beihang University
+ *
  *  Copyright (C) 1993  Stephen Tweedie (sct@redhat.com)
  *  from
  *  Copyright (C) 1992  Remy Card (card@masi.ibp.fr)
@@ -21,9 +25,6 @@
  * Major simplications and cleanup - we only need to do the metadata, because
  * we can depend on generic_block_fdatasync() to sync the data blocks.
  *
- * Implement SpanFS based on Ext4.
- * Copyright (C) 2013-2016, Junbin Kang <kangjb@act.buaa.edu.cn>, Benlong Zhang <zblgeqian@gmail.com>, Lian Du <dulian@act.buaa.edu.cn>.
- * Beihang University
  */
 
 #include <linux/time.h>

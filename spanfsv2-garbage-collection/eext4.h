@@ -1,6 +1,12 @@
 #ifndef _LINUX_EEXT4_H
 #define _LINUX_EEXT4_H
 
+/*
+ * Implement SpanFS based on Ext4.
+ * Copyright (C) 2013-2016, Junbin Kang <kangjb@act.buaa.edu.cn>, Benlong Zhang <zblgeqian@gmail.com>, Lian Du <dulian@act.buaa.edu.cn>.
+ * Beihang University
+ */
+
 #include <linux/list.h>
 #include <linux/spinlock.h>
 #include <linux/fs.h>

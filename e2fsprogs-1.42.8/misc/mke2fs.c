@@ -1,6 +1,10 @@
 /*
  * mke2fs.c - Make a ext2fs filesystem.
  *
+ * Implement SpanFS (eext4) disk tool based on mke2fs.
+ * Copyright (C) 2013-2016, Junbin Kang <kangjb@act.buaa.edu.cn>, Benlong Zhang <zblgeqian@gmail.com>, Lian Du <dulian@act.buaa.edu.cn>
+ *
+ *
  * Copyright (C) 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002,
  * 	2003, 2004, 2005 by Theodore Ts'o.
  *
@@ -8,9 +12,6 @@
  * This file may be redistributed under the terms of the GNU Public
  * License.
  * %End-Header%
- * Implement SpanFS (eext4) disk tool based on mke2fs.
- * Copyright (C) 2013-2016, Junbin Kang <kangjb@act.buaa.edu.cn>, Benlong Zhang <zblgeqian@gmail.com>, Lian Du <dulian@act.buaa.edu.cn>
- *
  */
 
 /* Usage: mke2fs [options] device
