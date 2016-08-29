@@ -2,6 +2,10 @@
  * Copyright (c) 2012 Taobao.
  * Written by Tao Ma <boyu.mt@taobao.com>
  *
+ * Implement SpanFS based on Ext4.
+ * Copyright (C) 2013-2016  Junbin Kang <kangjb@act.buaa.edu.cn>, Benlong Zhang <zblgeqian@gmail.com>, Lian Du <dulian@act.buaa.edu.cn>.
+ * Beihang University
+ *
  * This program is free software; you can redistribute it and/or modify it
  * under the terms of version 2.1 of the GNU Lesser General Public License
  * as published by the Free Software Foundation.
