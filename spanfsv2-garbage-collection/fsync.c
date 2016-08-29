@@ -2,7 +2,7 @@
  *  linux/fs/ext4/fsync.c
  *
  * Implement SpanFS based on Ext4.
- * Copyright (C) 2013-2016, Junbin Kang <kangjb@act.buaa.edu.cn>, Benlong Zhang <zblgeqian@gmail.com>, Lian Du <dulian@act.buaa.edu.cn>.
+ * Copyright (C) 2013-2016  Junbin Kang <kangjb@act.buaa.edu.cn>, Benlong Zhang <zblgeqian@gmail.com>, Lian Du <dulian@act.buaa.edu.cn>.
  * Beihang University
  *
  *  Copyright (C) 1993  Stephen Tweedie (sct@redhat.com)
