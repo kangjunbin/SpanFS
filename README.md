@@ -10,7 +10,8 @@ We build the logical connection (bidirectional index) among the domains beyond t
 SpanFS is implemented based on Ext4 in Linux 3.18.0.
 
 For more details, please refer to our paper:
-[SpanFS: A Scalable File System on Fast Storage Devices ](https://www.usenix.org/system/files/conference/atc15/atc15-paper-kang.pdf)<bf />
+[SpanFS: A Scalable File System on Fast Storage Devices ](https://www.usenix.org/system/files/conference/atc15/atc15-paper-kang.pdf)<bf />.
+
 If you use our work, please cite our USENIX ATC paper.
 
 @inproceedings {spanfs,
