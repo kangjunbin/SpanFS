@@ -29,9 +29,10 @@ pages = {249--261},
 }
 #The guide to using SpanFS
 
-First, make the SpanFS on-disk structures by using our modified mke2fs 
+First, make the SpanFS on-disk structures by using our modified mke2fs (Parameter N would be the number of domains to be created)
      
      e2fsprogs-1.42.8/misc/mke2fs -t ext4 -J size=64 -p N /dev/fioa
+
 
 Then, mount SpanFS
     
