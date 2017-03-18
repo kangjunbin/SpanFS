@@ -1,5 +1,6 @@
 # SpanFS
-#Introduction
+
+# Introduction
 SpanFS is a Scalable File System on Fast Storage Devices, which aims to provide scalable I/O performance on many-core platform incorporating fast storage technologies.
 As demonstrated in our paper, the scalability bottlenecks of exitsting file systems are mainly caused by two factors: the use of shared in-memory data structures and the serialization of internl I/O activities on fast storage devices.
 
@@ -28,7 +29,7 @@ pages = {249--261},
 
 }
 
-#The guide to using SpanFS
+# The guide to using SpanFS
 
 First, make the SpanFS on-disk structures by using our modified mke2fs (Parameter N would be the number of domains to be created)
      
